@@ -1,0 +1,9 @@
+# 排除本地项目数据与发布标记
+.workbuddy/
+.wbapp_*.genie
+works/
+.DS_Store
+Thumbs.db
+
+# 本地源文件（index.html 为发布副本）
+gnorimia.html
