@@ -1,7 +1,9 @@
 # 排除本地项目数据与发布标记
 .workbuddy/
 .wbapp_*.genie
-works/
+works/*
+# 作品 PDF 白名单：需要上线给访客打开的才放行
+!works/tian-yiti.pdf
 .DS_Store
 Thumbs.db
 
